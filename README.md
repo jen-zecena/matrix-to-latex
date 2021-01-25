@@ -2,7 +2,7 @@
 
 MaTrex
 
-We are 4 Computer Science students in the Fall 2020 Software Development Class at Harvey Mudd College and we created this web app as our project for the class.
+We are 4 Computer Science students in the Fall 2020 Software Development Class at Harvey Mudd College and we created MaTrex, a web app that converts images of matrices into LaTex Code, as our final project for the class.
 
 Perhaps the most tedious part of using LaTeX for homework assignments is representing matrices. Our web app does the work for the user by allowing users to convert images of handwritten matrices to LaTeX code that can be copied and pasted into their own LaTeX editors. This is achieved through the use of the YOLOv5 object recognition model to classify and locate the matrix elements and a simple algorithm taking advantage of a matrix’s grid-like structure to generate the LaTeX code.
 
